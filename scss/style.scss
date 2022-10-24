@@ -1,0 +1,22 @@
+
+@use 'custom';
+
+// IMPORT COMPONENTS
+@use 'component/button';
+@use 'component/mixins';
+@use 'component/typography';
+@use 'component/icons';
+
+
+// IMPORT SECTIONS
+@use 'sections/navbar';
+@use 'sections/about-me';
+@use 'sections/contact';
+@use 'sections/footer';
+@use 'sections/intro-section';
+@use 'sections/number';
+@use 'sections/projects';
+
+html{
+    scroll-behavior: smooth;
+}

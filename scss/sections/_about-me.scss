@@ -1,0 +1,75 @@
+@use '../custom';
+
+.progress-bar{
+    width: 80vw;
+    height: 20px;
+    border-radius: 10px;
+    div{
+        height: 20px;
+        border-radius: 10px;
+        width: 0%;
+        span{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background: white;
+            float: right;
+            margin-top: -10px;
+            margin-right: -20px;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.html-skills{
+    animation: html-skills 1s linear forwards;
+}
+.css-skills{
+    animation: css-skills 1s linear forwards;
+}
+.sass-skills{
+    animation: sass-skills 1s linear forwards;
+}
+.bootstrap-skills{
+    animation: bootstrap-skills 1s linear forwards;
+}
+.javascript-skills{
+    animation: javascript-skills 1s linear forwards;
+}
+.gits-skills{
+    animation: gits-skills 1s linear forwards;
+}
+
+@keyframes html-skills{
+    100%{
+        width: 85%;
+    }
+}
+@keyframes css-skills{
+    100%{
+        width: 78%;
+    }
+}
+@keyframes sass-skills{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes bootstrap-skills{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javascript-skills{
+    100%{
+        width: 48%;
+    }
+}
+@keyframes gits-skills{
+    100%{
+        width: 55%;
+    }
+}
