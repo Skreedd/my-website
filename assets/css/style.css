@@ -1,4 +1,21 @@
 @charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10795,6 +10812,10 @@ textarea.form-control-lg {
   font-size: 1.5rem;
 }
 
+h1, h2, h3 {
+  font-weight: 700;
+}
+
 .progress-bar {
   width: 80vw;
   height: 20px;
@@ -10872,9 +10893,6 @@ textarea.form-control-lg {
   100% {
     width: 55%;
   }
-}
-html {
-  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */

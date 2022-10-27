@@ -2,21 +2,9 @@
 @use 'custom';
 
 // IMPORT COMPONENTS
-@use 'component/button';
-@use 'component/mixins';
-@use 'component/typography';
-@use 'component/icons';
-
+@forward './component';
 
 // IMPORT SECTIONS
-@use 'sections/navbar';
-@use 'sections/about-me';
-@use 'sections/contact';
-@use 'sections/footer';
-@use 'sections/intro-section';
-@use 'sections/number';
-@use 'sections/projects';
+@forward './sections';
 
-html{
-    scroll-behavior: smooth;
-}
+
