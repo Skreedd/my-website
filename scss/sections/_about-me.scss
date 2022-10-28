@@ -4,6 +4,7 @@
     width: 80vw;
     height: 20px;
     border-radius: 10px;
+    margin-bottom: 1rem;
     div{
         height: 20px;
         border-radius: 10px;
@@ -45,31 +46,31 @@
 
 @keyframes html-skills{
     100%{
-        width: 85%;
+        width: 80%;
     }
 }
 @keyframes css-skills{
     100%{
-        width: 78%;
+        width: 70%;
     }
 }
 @keyframes sass-skills{
     100%{
-        width: 70%;
+        width: 64%;
     }
 }
 @keyframes bootstrap-skills{
     100%{
-        width: 80%;
+        width: 70%;
     }
 }
 @keyframes javascript-skills{
     100%{
-        width: 48%;
+        width: 40%;
     }
 }
 @keyframes gits-skills{
     100%{
-        width: 55%;
+        width: 30%;
     }
 }
