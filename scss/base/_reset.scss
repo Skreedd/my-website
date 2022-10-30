@@ -1,17 +1,16 @@
 html{
-    box-sizing: border-box;
     scroll-behavior: smooth;
+    box-sizing: border-box;
     font-size: 100%;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
-
+a, a:visited, a:active {
+    text-decoration: none;
+}
 body{
     margin: 0;
     padding: 0;
 }
-
-// IMPORT BOOTSTRAP 5
-@import "../node_modules/bootstrap/scss/bootstrap.scss";

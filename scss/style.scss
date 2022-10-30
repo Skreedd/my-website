@@ -1,5 +1,6 @@
 
-@use 'custom';
+// IMPORT BASE
+@forward './base';
 
 // IMPORT COMPONENTS
 @forward './component';
@@ -7,4 +8,7 @@
 // IMPORT SECTIONS
 @forward './sections';
 
+
+// IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 

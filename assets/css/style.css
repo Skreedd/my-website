@@ -5,10 +5,12 @@ html {
   font-size: 100%;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
 }
 
 body {
@@ -16,6 +18,123 @@ body {
   padding: 0;
 }
 
+h1, .h1, h2, .h2, h3, .h3 {
+  font-weight: 600;
+}
+
+h2, .h2 {
+  font-size: 25px;
+}
+
+p {
+  margin-top: 0;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.btn-outline-dark {
+  padding: 0.8rem 1rem;
+  width: 8rem;
+  margin: 0;
+  transition: 0.7s ease;
+}
+
+.btn-outline-secondary {
+  transition: 1s ease;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.bi-envelope, .bi-linkedin, .bi-github, .bi-stack-overflow, .bi-telephone {
+  transition: 0.2s ease-in-out;
+  font-size: 1rem;
+}
+
+.bi-envelope:hover, .bi-linkedin:hover, .bi-github:hover, .bi-stack-overflow:hover, .bi-telephone:hover {
+  font-size: 1.5rem;
+}
+
+.progress-bar {
+  width: 80vw;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.progress-bar div {
+  height: 20px;
+  border-radius: 10px;
+  width: 0%;
+}
+.progress-bar div span {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  float: right;
+  margin-top: -10px;
+  margin-right: -20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.html-skills {
+  animation: html-skills 1s linear forwards;
+}
+
+.css-skills {
+  animation: css-skills 1s linear forwards;
+}
+
+.sass-skills {
+  animation: sass-skills 1s linear forwards;
+}
+
+.bootstrap-skills {
+  animation: bootstrap-skills 1s linear forwards;
+}
+
+.javascript-skills {
+  animation: javascript-skills 1s linear forwards;
+}
+
+.gits-skills {
+  animation: gits-skills 1s linear forwards;
+}
+
+@keyframes html-skills {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes css-skills {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes sass-skills {
+  100% {
+    width: 64%;
+  }
+}
+@keyframes bootstrap-skills {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes javascript-skills {
+  100% {
+    width: 40%;
+  }
+}
+@keyframes gits-skills {
+  100% {
+    width: 30%;
+  }
+}
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10786,123 +10905,6 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
-  }
-}
-.btn-outline-dark {
-  padding: 0.8rem 1rem;
-  width: 8rem;
-  margin: 0;
-  transition: 0.7s ease;
-}
-
-.btn-outline-secondary {
-  transition: 1s ease;
-}
-
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.bi-envelope, .bi-linkedin, .bi-github, .bi-stack-overflow, .bi-telephone {
-  transition: 0.2s ease-in-out;
-  font-size: 1rem;
-}
-
-.bi-envelope:hover, .bi-linkedin:hover, .bi-github:hover, .bi-stack-overflow:hover, .bi-telephone:hover {
-  font-size: 1.5rem;
-}
-
-h1, h2, h3 {
-  font-weight: 600;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-p {
-  margin-top: 0;
-  line-height: 2;
-  font-weight: 400;
-}
-
-.progress-bar {
-  width: 80vw;
-  height: 20px;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-.progress-bar div {
-  height: 20px;
-  border-radius: 10px;
-  width: 0%;
-}
-.progress-bar div span {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background: white;
-  float: right;
-  margin-top: -10px;
-  margin-right: -20px;
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.html-skills {
-  animation: html-skills 1s linear forwards;
-}
-
-.css-skills {
-  animation: css-skills 1s linear forwards;
-}
-
-.sass-skills {
-  animation: sass-skills 1s linear forwards;
-}
-
-.bootstrap-skills {
-  animation: bootstrap-skills 1s linear forwards;
-}
-
-.javascript-skills {
-  animation: javascript-skills 1s linear forwards;
-}
-
-.gits-skills {
-  animation: gits-skills 1s linear forwards;
-}
-
-@keyframes html-skills {
-  100% {
-    width: 80%;
-  }
-}
-@keyframes css-skills {
-  100% {
-    width: 70%;
-  }
-}
-@keyframes sass-skills {
-  100% {
-    width: 64%;
-  }
-}
-@keyframes bootstrap-skills {
-  100% {
-    width: 70%;
-  }
-}
-@keyframes javascript-skills {
-  100% {
-    width: 40%;
-  }
-}
-@keyframes gits-skills {
-  100% {
-    width: 30%;
   }
 }
 
