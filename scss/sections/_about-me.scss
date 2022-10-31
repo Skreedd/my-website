@@ -1,20 +1,22 @@
+@use '../abstracts' as a;
+
 .progress-bar{
     width: 80vw;
-    height: 20px;
-    border-radius: 10px;
+    height: a.rem(20);
+    border-radius: a.rem(10);
     margin-bottom: 1rem;
     div{
-        height: 20px;
-        border-radius: 10px;
+        height: a.rem(20);
+        border-radius: a.rem(10);
         width: 0%;
         span{
-            height: 40px;
-            width: 40px;
+            height: a.rem(40);
+            width: a.rem(40);
             border-radius: 50%;
             background: white;
             float: right;
-            margin-top: -10px;
-            margin-right: -20px;
+            margin-top: a.rem(-10);
+            margin-right: a.rem(-20);
             color: #333;
             display: flex;
             align-items: center;
