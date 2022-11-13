@@ -88,18 +88,33 @@
     <section class="container-fluid py-5" id="projects">
         <div class="container my-5">
             <h2 class="text-center">PROJECTS</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-                <div class="col hover-zoom">
-                  <div class="card p-3">
-                        <img src="./img/myweb.png" class="card-img-top" alt="myweb"/>
+            <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+                <div class="col">
+                  <div class="card hover-zoom">
+                    <img src="./img/myweb.png" class="card-img-top" alt="My web img"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Landing Page</h5>
+                      <p class="card-text">
+                        Build using HTML CSS & BOOTSTRAP
+                      </p>
+                      <a href="https://myweb-project1.netlify.app" rel="noopener" target="_blank" class="btn btn-outline-secondary mb-4">Live Priview</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card hover-zoom">
+                        <img src="./img/news2.png" class="card-img-top" alt="News homepage"/>
                         <div class="card-body">
-                            <h5 class="card-title mb-4">Landing page</h5>
-                            <p class="card-text">Build using HTML CSS & BOOTSTRAP</p>
-                            <a href="https://myweb-project1.netlify.app" rel="noopener" target="_blank" class="btn btn-outline-secondary mb-4">Live Priview</a>
+                            <h5 class="card-title">News Homepage</h5>
+                            <p class="card-text">
+                                Build using HTML, SCSS & JS
+                            </p>
+                            <a href="https://news-homepage9079.netlify.app/" rel="noopener" target="_blank" class="btn btn-outline-secondary mb-4">Live Priview</a>
                         </div>
                     </div>
                 </div>
             </div>
+          
         </div>
     </section>
     <!-- CONTACT -->
@@ -121,26 +136,27 @@
                         </div>
                     </div>
                     <div class="d-block mt-4">
-                        <a href="www.linkedin.com/in/martinsfadairo" rel="noopener" target="_blank"><i class="bi pe-5 bi-linkedin"></i>
+                        <a href="https://linkedin.com/in/martins-f-1881b0238" rel="noopener" target="_blank"><i class="bi pe-5 bi-linkedin"></i>
                         <a href="https://github.com/Skreedd" rel="noopener" target="_blank"><i class="bi pe-5 bi-github"></i></a>
                         <a href="https://stackoverflow.com/users/16440984/martin" rel="noopener" target="_blank"><i class="bi bi-stack-overflow"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form>
+                    <form action="webform.php" method="POST">
                         <div class="form-outline mb-4">
-                          <input type="text" id="form4Example1" class="form-control bg-dark" />
-                          <label class="form-label text-white-50" for="form4Example1">Name</label>
+                          <input type="text" id="name" class="form-control bg-secondary" />
+                          <label class="form-label text-white-50" for="name">Name</label>
                         </div>
                         <div class="form-outline mb-4">
-                          <input type="email" id="form4Example2" class="form-control bg-dark" />
-                          <label class="form-label text-white-50" for="form4Example2">Email address</label>
+                          <input type="email" id="email" class="form-control bg-secondary" />
+                          <label class="form-label text-white-50" for="email">Email address</label>
                         </div>
                         <div class="form-outline mb-4">
-                          <textarea class="form-control bg-dark" id="form4Example3" rows="4"></textarea>
-                          <label class="form-label text-white-50" for="form4Example3"> Message</label>
+                          <textarea class="form-control bg-secondary" id="message" rows="4"></textarea>
+                          <label class="form-label text-white-50" for="message"> Message</label>
                         </div>
-                        <button type="submit" class="btn btn-outline-secondary btn-block mb-4">Submit</button>
+                        <!-- <input type="submit" name="submit" value="send" class="btn btn-outline-secondary btn-block mb-4"> -->
+                        <button type="submit" value="send" class="btn btn-outline-secondary btn-block mb-4">Submit</button>
                       </form>
                 </div>
             </div>

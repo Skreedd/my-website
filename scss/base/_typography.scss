@@ -11,6 +11,10 @@ h2 {
 p{
     margin-top: 0;
     line-height: 2;
+    font-size: a.rem(15);
+}
+
+h5 {
+    font-size: clamp(a.rem(6), a.rem(13) + 2vw, a.rem(16));
     font-weight: 400;
-    font-size: a.rem(16);
 }
